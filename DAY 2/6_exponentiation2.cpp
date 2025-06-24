@@ -29,7 +29,7 @@ signed main(){
     while(tc--){
         int a, b, c;
         cin >> a >> b >> c;
-        int temp = binpow(b,c, 1e9 + 6);
+        int temp = binpow(b,c, 1e9 + 6); // Due to Eulers Theorem
         cout << binpow(a, temp) << endl;
     }
 
